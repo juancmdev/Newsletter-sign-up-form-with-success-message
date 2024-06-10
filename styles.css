@@ -45,6 +45,15 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 10% 90%);
     gap: 2px;
+    margin-bottom: 10px;
+
+    & svg {
+      margin: auto 0;
+    }
+
+    & p {
+      margin: auto 0;
+    }
   }
 
   & .left__text:nth-last-child(3) {
