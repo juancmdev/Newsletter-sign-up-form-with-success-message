@@ -1,52 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="containerMain">
+        <aside class="left">
+          <h1>Stay updated!</h1>
+          <p>Join 60,000+ product managers receiving monthly updates on:</p>
 
-  <!-- Sign-up form start -->
+          <article class="left__text">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 64 64"
+            >
+              <defs>
+                <linearGradient id="a" x1="100%" x2="0%" y1="0%" y2="100%">
+                  <stop offset="0%" stop-color="#FF6A3A" />
+                  <stop offset="100%" stop-color="#FF527B" />
+                </linearGradient>
+              </defs>
+              <g fill="none">
+                <circle cx="32" cy="32" r="32" fill="url(#a)" />
+                <path
+                  stroke="#FFF"
+                  stroke-width="4"
+                  d="m18.286 34.686 8.334 7.98 19.094-18.285"
+                />
+              </g>
+            </svg>
+            <p>Product discovery and building what matters</p>
+          </article>
 
-  Stay updated!
+          <article class="left__text">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 64 64"
+            >
+              <defs>
+                <linearGradient id="a" x1="100%" x2="0%" y1="0%" y2="100%">
+                  <stop offset="0%" stop-color="#FF6A3A" />
+                  <stop offset="100%" stop-color="#FF527B" />
+                </linearGradient>
+              </defs>
+              <g fill="none">
+                <circle cx="32" cy="32" r="32" fill="url(#a)" />
+                <path
+                  stroke="#FFF"
+                  stroke-width="4"
+                  d="m18.286 34.686 8.334 7.98 19.094-18.285"
+                />
+              </g>
+            </svg>
+            <p>Measuring to ensure updates are a success</p>
+          </article>
 
-  Join 60,000+ product managers receiving monthly updates on:
+          <article class="left__text">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 64 64"
+            >
+              <defs>
+                <linearGradient id="a" x1="100%" x2="0%" y1="0%" y2="100%">
+                  <stop offset="0%" stop-color="#FF6A3A" />
+                  <stop offset="100%" stop-color="#FF527B" />
+                </linearGradient>
+              </defs>
+              <g fill="none">
+                <circle cx="32" cy="32" r="32" fill="url(#a)" />
+                <path
+                  stroke="#FFF"
+                  stroke-width="4"
+                  d="m18.286 34.686 8.334 7.98 19.094-18.285"
+                />
+              </g>
+            </svg>
+            <p>And much more!</p>
+          </article>
 
-  Product discovery and building what matters
-  Measuring to ensure updates are a success
-  And much more!
+          <p class="emailText">Email address</p>
 
-  Email address
-  email@company.com
+          <form action="" class="form" id="form" novalidate>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="email@company.com"
+            />
+            <button type="submit">Subscribe to monthly newsletter</button>
+          </form>
+        </aside>
 
-  Subscribe to monthly newsletter
+        <aside class="right">
+          <img src="./assets/images/illustration-sign-up-desktop.svg" alt="" />
+        </aside>
+      </section>
 
-  <!-- Sign-up form end -->
+      <!-- Sign-up form end -->
+      <!-- Sign-up form start -->
+    </main>
 
-  <!-- Success message start -->
+    <section class="successMessaje">
+      <!-- Success message start -->
 
-  Thanks for subscribing!
+      Thanks for subscribing! A confirmation email has been sent to
+      ash@loremcompany.com. Please open it and click the button inside to
+      confirm your subscription. Dismiss message
 
-  A confirmation email has been sent to ash@loremcompany.com. 
-  Please open it and click the button inside to confirm your subscription.
+      <!-- Success message end -->
+    </section>
 
-  Dismiss message
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
 
-  <!-- Success message end -->
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <script src="./app.js"></script>
+  </body>
 </html>
