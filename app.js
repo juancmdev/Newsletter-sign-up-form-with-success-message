@@ -1,4 +1,5 @@
 const form = document.querySelector("#form");
+const emailValue = document.querySelector("#emailValue");
 const main = document.querySelector("main");
 const successMessaje = document.querySelector(".successMessaje");
 
@@ -24,4 +25,5 @@ form.addEventListener("submit", handleSubmit);
 dismissBtn.addEventListener("click", () => {
   successMessaje.classList.add("display");
   main.classList.remove("display");
+  emailValue.value = "";
 });
