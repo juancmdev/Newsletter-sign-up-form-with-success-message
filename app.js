@@ -27,3 +27,5 @@ dismissBtn.addEventListener("click", () => {
   main.classList.remove("display");
   emailValue.value = "";
 });
+
+//Validation email
