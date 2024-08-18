@@ -39,7 +39,7 @@ body {
   border-radius: 15px;
   display: grid;
   grid-template-columns: repeat(2, 50% 50%);
-  height: 400px; /* change in mobile*/
+  height: 400px;
   margin: 0 auto;
   padding: 20px;
   width: 95%;
