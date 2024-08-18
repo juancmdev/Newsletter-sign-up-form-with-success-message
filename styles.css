@@ -68,9 +68,25 @@ body {
   display: none;
 }
 
+#emailValue {
+  transition: 0.2s ease-in all;
+}
+
+.emailText-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .emailText {
   font-weight: 700;
   margin-bottom: 5px;
+}
+
+.emailText-warning {
+  color: rgb(251, 102, 88);
+  font-weight: 700;
+  text-align: right;
+  display: none;
 }
 
 form {
@@ -101,12 +117,12 @@ form {
     font-weight: 400;
     letter-spacing: 1px;
     cursor: pointer;
-    transition: background 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
   }
 
   & button:hover {
     background: #fb6658;
-    transition: background 0.3s ease;
+    transition: 0.3s ease;
   }
 }
 
