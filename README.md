@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/juancmdev/Newsletter-sign-up-form-with-success-message?tab=readme-ov-file](https://your-solution-url.com)
+- Solution URL: [https://github.com/juancmdev/Newsletter-sign-up-form-with-success-message?tab=readme-ov-file](https://github.com/juancmdev/Newsletter-sign-up-form-with-success-message?tab=readme-ov-file)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
